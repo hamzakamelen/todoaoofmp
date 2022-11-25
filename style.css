@@ -1,0 +1,117 @@
+body{
+    background-color: white;
+    text-align: center;
+    align-items: center;
+}
+.head{
+    font-size: 65px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+input{
+    height: 30px;
+    font-size: 25px;
+    width: auto;
+
+}
+.btn2{
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    background-color: cornflowerblue;
+    font-size: 25px;
+    min-height: 50px;
+    width: 60px;
+    color: black;
+}
+.btn2:hover{
+    background-color: blue;
+    color: whitesmoke;
+}
+.btn{
+    border-radius: 20px;
+    background-color: blue;
+    font-size: 25px;
+    min-height: 50px;
+    width: 20%;
+    color: whitesmoke;
+}
+form{
+    text-align: center;
+    align-items: center;
+}
+.main{
+    width: 100%;
+    margin-left: -3%;
+    text-align: center;
+}   
+.user{
+    color: cornflowerblue
+}
+#listUL{
+    color: blue; 
+    text-align: center !important; 
+    font-size: 35px;
+}
+#listUL span{
+    color: black;
+    font-size: smaller;
+    margin-left: 50%;
+}
+li{
+    background-color: aliceblue;
+    border-radius: 20px;
+    list-style: circle;
+    
+}
+input::placeholder{
+    color: lightslategray;
+}
+input{
+    width: 30%;
+    border-radius: 20px;
+    border-style: hidden;
+    background-color: lightgray;
+    text-align: center;
+    border-bottom: 2px solid blue;
+    height: 50px;
+}
+.signup{
+    font-weight: lighter;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.signup:hover{
+    color: black;
+    text-decoration: underline;
+}
+.loginscreen{
+    margin-top: 10%;
+}
+.btn:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+#Inptask{
+    border: none;
+    background-color: black;
+    color: whitesmoke;
+}
+.btn3{
+    width: 150px;
+    border: none;
+    text-transform: capitalize;
+}
+.btn3:hover{
+    background-color: aqua;
+}
+.taskADD{
+    font-size: 40px;
+    color: darkblue;
+}
+.datetimeadd{
+    font-size: 30px !important;
+}
+/* .iconbtn{
+    border: 2px solid black;
+    font-size: 25px;
+} */

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/69d25744bf.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+        <div style="text-align: right">
+    <input type="button" value="logout" class="btn3"  onclick="logout()">
+</div>
+    <div>
+        <h1 class="head">Hello <span class="user" style="color:cadetblue; font-style: normal;">Hamza Kamelen</span></h1>
+        <div class="main">
+            <form onsubmit="addTask(event)">
+            <input placeholder="What you Want to Add?" autocomplete="off" type="text" id="Inptask">
+            <input onclick="addTask()" type="submit" value="Add" class="btn2">
+            <input style="width: 100px; color: black; background-color: greenyellow;" onclick="getData()" type="button" value="GetData" class="btn2">
+        </form>
+        </div>
+        <div>
+            <ul  id="listUL">
+
+            </ul>
+        </div>
+    </div>
+    <script type="module" type="module" src="home.js"></script>
+</body>
+</html>
